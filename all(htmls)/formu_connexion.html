@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+form{
+    height: 80%;
+    width: 27%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0 100rem 0 rgba(0, 0, 0, 0.582);
+    border: 1px solid rgba(77, 76, 76, 0.555);
+
+}
+.huadonn{
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.objct{
+    height: 40%;
+    width: 14%;
+}
+.sok{
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.huadonn2{
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+}
+.let1{
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.let2{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.589);
+}
+.prtBas{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.inputs{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.label{
+    text-align: start;
+    width: 85%;
+    font-size: 14px;
+    font-weight: 700;
+}
+.input{
+    height: 20%;
+    width: 85%;
+    border: 1.5px solid rgba(77, 76, 76, 0.555);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.ch{
+    height: 30%;
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.26);
+}
+.inf{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+}
+.inf11{
+    font-size: 14px;
+    font-weight: 800;
+    color: orange;
+}
+button{
+    height: 40%;
+    width: 100%;
+    background-color: orange;
+    border-radius: 10px;
+}
+.inf2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+}
+.inf11{
+    font-size: 12px;
+    color: orange;
+}
+.inf111{
+    color: rgba(0, 0, 0, 0.726);
+}
+.href{
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+}
+.sok{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+@media (max-width:600px){
+    form{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0 100rem 0 rgba(0, 0, 0, 0.582);
+    border: 1px solid rgba(77, 76, 76, 0.555);
+
+}
+.sok{
+    font-size: 1.5rem;
+    font-weight: 800;
+    display: none;
+}
+.objct{
+    height: 82%;
+    width: 37%;
+}
+.let1{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.let2{
+    font-size: 12px;
+}
+}
+</style>
+<body>
+    <form action="">
+
+        <div class="huadonn">
+            <img src="./img/Sans titre-1.png" alt="" class="objct">
+            <span class="sok">SOKOLINK</span>
+        </div>
+
+        <div class="huadonn2">
+<span class="let1">Connectez-vous</span>
+<span class="let2">Bienvenue de nouveau sur SOKOLINK</span>
+        </div>
+        <div class="prtBas">
+
+           <div class="inputs" >
+            <label for="" class="label">Adress e-mail</label>
+           <input type="email" class="input" required placeholder="joelmataro402@gmail.com">
+           <label for="" class="label">Mot de passe</label>
+           <input type="password" class="input" required placeholder="• • • • • • •">
+           </div>
+
+           <div class="ch">
+            <div class="inf"><span class="inf11">Mot de passe oublie?</span></div>
+           <button></button>
+        </div>
+
+        <div class="inf2"><span class="inf111">Pas encore de compte? </span><a href="" class="href">S'inscrire</a></div>
+           
+        </div>
+    </form>
+</body>
+</html>

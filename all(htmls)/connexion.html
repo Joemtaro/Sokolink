@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Connexion | SOKOLINK</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      
+      * {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(120deg, #f9f9f9, #fff);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 360px;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+.logo {
+    width: 50px;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+p {
+    text-align: center;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+button {
+    width: 100%;
+    background: orange;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff8c00;
+}
+.forgot {
+    display: block;
+    text-align: right;
+    font-size: 13px;
+    margin-bottom: 15px;
+    color: orange;
+}
+
+.bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <img src="./img/Sans titre-1.png" class="logo">
+    <h2>Connectez-vous</h2>
+    <p>Bienvenue de nouveau sur SOKOLINK</p>
+
+    <form id="loginForm">
+        <label>Adresse e-mail</label>
+        <input type="email" required placeholder="exemple@email.com">
+
+        <label>Mot de passe</label>
+        <input type="password" required placeholder="•••••••">
+
+        <a href="#" class="forgot">Mot de passe oublié ?</a>
+
+        <button  onclick="allerPage()" type="submit">Se connecter</button>
+    </form>
+
+    <p class="bottom">
+        Pas encore de compte ? <a href="./login.html">S'inscrire</a>
+    </p>
+</div>
+<script>
+    function allerPage(){
+        window.location.href="ajout_produits.html";
+    }
+</script>
+</body>
+</html>
