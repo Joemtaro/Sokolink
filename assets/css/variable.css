@@ -1,0 +1,92 @@
+/* variable.css */
+:root {
+    /* Couleurs principales - alignées avec l'image */
+    --primary-color: #01003c;         /* Bleu foncé */
+    --secondary-color: #ff8a00;       /* Orange vif */
+    --secondary-hover: #ff6b00;       /* Orange plus foncé au survol */
+    --accent-color: #4354ff;          /* Bleu clair */
+    --white-color: #fefefe;           /* Blanc pur */
+    --light-gray: #f8f9fa;            /* Gris très clair */
+    
+    /* Couleurs textuelles */
+    --text-primary: #01003c;          /* Texte principal bleu foncé */
+    --text-secondary: #4a4a6a;        /* Texte secondaire */
+    --text-light: #6c6c8a;            /* Texte léger */
+    --text-white: #fefefe;            /* Texte blanc */
+    
+    /* Arrière-plans */
+    --bg-white: #fefefe;
+    --bg-light: #f8f9fa;
+    --bg-primary: #01003c;
+    --bg-primary-light: rgba(1, 0, 60, 0.05);
+    --bg-secondary: rgba(255, 138, 0, 0.1);
+    
+    /* Bordures */
+    --border-primary: rgba(1, 0, 60, 0.1);
+    --border-secondary: rgba(255, 138, 0, 0.2);
+    --border-light: rgba(1, 0, 60, 0.05);
+    
+    /* Ombres */
+    --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+    --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.15);
+    --shadow-2xl: 0 25px 50px rgba(0, 0, 0, 0.25);
+    --shadow-secondary: 0 0 20px rgba(255, 138, 0, 0.3);
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    --gradient-secondary: linear-gradient(135deg, var(--secondary-color), var(--secondary-hover));
+    --gradient-white: linear-gradient(to bottom, transparent, var(--white-color));
+    --gradient-overlay: linear-gradient(to bottom, rgba(1, 0, 60, 0.1), transparent);
+    
+    /* Typographie */
+    --font-title: 'Poppins', sans-serif;
+    --font-body: 'Montserrat', sans-serif;
+    
+    /* Taille de police */
+    --text-xs: 0.75rem;    /* 12px */
+    --text-sm: 0.875rem;   /* 14px */
+    --text-base: 1rem;     /* 16px */
+    --text-lg: 1.125rem;   /* 18px */
+    --text-xl: 1.25rem;    /* 20px */
+    --text-2xl: 1.5rem;    /* 24px */
+    --text-3xl: 1.875rem;  /* 30px */
+    --text-4xl: 2.25rem;   /* 36px */
+    --text-5xl: 3rem;      /* 48px */
+    --text-6xl: 3.75rem;   /* 60px */
+    --text-7xl: 4.5rem;    /* 72px */
+    
+    /* Espacements */
+    --spacing-xs: 0.25rem;   /* 4px */
+    --spacing-sm: 0.5rem;    /* 8px */
+    --spacing-md: 1rem;      /* 16px */
+    --spacing-lg: 1.5rem;    /* 24px */
+    --spacing-xl: 2rem;      /* 32px */
+    --spacing-2xl: 3rem;     /* 48px */
+    --spacing-3xl: 4rem;     /* 64px */
+    
+    /* Bordures arrondies */
+    --radius-sm: 0.25rem;    /* 4px */
+    --radius-md: 0.5rem;     /* 8px */
+    --radius-lg: 0.75rem;    /* 12px */
+    --radius-xl: 1rem;       /* 16px */
+    --radius-2xl: 1.5rem;    /* 24px */
+    --radius-full: 9999px;   /* Full rounded */
+    
+    /* Transitions */
+    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    /* Z-index */
+    --z-negative: -1;
+    --z-base: 1;
+    --z-dropdown: 10;
+    --z-sticky: 20;
+    --z-fixed: 30;
+    --z-modal: 40;
+    --z-popover: 50;
+    --z-tooltip: 60;
+}
