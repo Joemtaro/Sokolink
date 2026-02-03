@@ -1,0 +1,90 @@
+sokolink.com/
+├── index.php                    # Page d'accueil (public + acheteur connecté)
+├── politique-de-confidentialite.php # Politique de confidentialité
+├── conditions-generales.php     # Conditions générales d'utilisation
+├── about.php                    # À propos
+├── contact.php                  # Contact
+├── search.php                  # Recherche produits
+├── terms.php                    # Termes et conditions
+├── privacy.php                  # Politique de confidentialité
+├── faq.php                      # FAQ
+├── sitemap.php                  # Sitemap
+├── 404.php                      # Page 404
+├── login.php                   # Connexion tous utilisateurs
+├── register.php                # Inscription tous utilisateurs
+├── logout.php                  # Déconnexion
+│
+├── admin/                      # BACK-OFFICE ADMIN
+│   ├── dashboard.php          # Tableau de bord admin
+│   ├── users.php              # Gestion utilisateurs
+│   ├── products.php           # Modération produits 
+│   ├── chat.php           # Messagerie   
+│   ├── orders.php             # Supervision commandes
+│   └── reports.php            # Rapports
+│
+├── vendeur/                     # ESPACE VENDEUR
+│   ├── dashboard.php          # Dashboard vendeur
+│   ├── index.php          # Liste produits
+│   ├── add.php           # Ajouter produit
+│   ├── edit.php          # Modifier produit
+│   ├── chat.php           # Messagerie
+│   ├── index.php          # Commandes reçues
+│   ├── view.php           # Détail commande
+│   ├── index.php          # Conversations
+│   └── edit.php           # Modifier profil
+│
+├── acheteur/                      # ESPACE ACHETEUR (pages spécifiques)
+│   ├── cart.php               # Panier d'achat
+│   ├── index.php          # Mes commandes
+│   ├── view.php           # Détail commande
+│   │── livraison.php       # Suivi livraison
+│   ├── chat.php           # Messagerie
+│   │── index.php          # Mes conversations
+│   │── edit.php           # Modifier profil
+│   └── favoris.php           # Favoris
+│
+├── products/                   # CATALOGUE (public)
+│   ├── index.php              # Liste tous produits
+│   ├── category.php           # Produits par catégorie
+│   └── view.php               # Fiche produit détaillée
+│
+├── api/                       # API REST
+│   ├── auth.php              # Authentification
+│   ├── products.php          # Produits
+│   ├── cart.php              # Panier
+│   ├── orders.php            # Commandes
+│   ├── chat.php              # Messagerie
+│   └── livraison.php          # Calcul livraison
+├── config/
+│   ├── Database.php      # Connexion DB
+│   ├── Config.php        # Configuration
+│   └── Mailer.php        # Envoi emails
+|
+├── includes/                  # FICHIERS INCLUS
+│   ├── header.php
+│   ├── footer.php
+│   ├── navbar.php
+│   └── sidebar-seller.php
+│
+├── assets/                    # RESSOURCES STATIQUES
+│   ├── css/
+│   │   ├── style.css        # Styles généraux
+│   │   ├── admin.css        # Styles admin
+│   │   ├── seller.css       # Styles vendeur
+│   │   ├── buyer.css        # Styles acheteur
+│   │   └── responsive.css   # Responsive
+│   ├── js/
+│   │   ├── main.js          # JS général
+│   │   ├── cart.js          # Gestion panier
+│   │   ├── chat.js          # Messagerie
+│   │   ├── admin.js         # Fonctions admin
+│   │   └── seller.js        # Fonctions vendeur
+│   └── images/              # Images
+│       ├── products/        # Uploads produits
+│       ├── avatars/         # Avatars utilisateurs
+│       └── icons/           # Icônes
+│
+└── uploads/                  # UPLOADS UTILISATEURS
+    ├── products/            # Images produits
+    ├── boutiques/           # Logos boutiques
+    └── profiles/            # Photos profils
